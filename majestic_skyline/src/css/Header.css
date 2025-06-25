@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: calc(1vw/14.4);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    margin: 14rem 81rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 85rem;
+    height: 47rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+nav button {
+    font-family: 'Montserrat';
+    font-size: 14rem;
+    border: 0.5rem solid #000;
+    border-radius: 10rem;
+    padding: 4rem 27rem;
+    background: none;
+    cursor: pointer;
+    color: #000;
+}
+
+nav button.account-btn {
+    padding: 0rem;
+    width: 28rem;
+    height: 28rem;
+    border: 0.8rem solid #000;
+    border-radius: 100rem;
+}
+
+nav button.account-btn img {
+    width: 11rem;
+}
+
+nav button.active {
+    background-color: #A0DFE0;
+}

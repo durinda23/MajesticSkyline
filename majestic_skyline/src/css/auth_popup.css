@@ -1,0 +1,87 @@
+.auth-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.auth-popup-content {
+  background: #fff;
+  padding: 40rem 94rem 67rem;
+  border-radius: 44rem;
+  box-sizing: border-box;
+}
+
+
+.auth-popup-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-popup-content input {
+  margin-bottom: 49rem;
+  width: 423rem;
+  height: 57rem;
+  font-family: 'MontserratLight';
+  font-size: 15rem;
+  border: 1rem solid #000000;
+  border-radius: 15rem;
+  padding-left: 29rem;
+}
+
+.auth-popup-content input:focus {
+    border-color: #000;
+    outline: none;
+    box-shadow: none;
+}
+
+.auth-popup-content button[type="submit"] {
+  width: 452rem;
+  height: 56rem;
+  font-family: 'MontserratLight';
+  font-size: 24rem;
+  color: #000000;
+  border: 1.2rem solid #A0DFE0;
+  border-radius: 15rem;
+  background-color: transparent;
+}
+
+/* .auth-popup-content button[type="submit"]:hover {
+  background-color: #0056b3;
+} */
+
+.auth-error {
+  color: red;
+  font-size: 12rem;
+  font-family: 'MontserratLight';
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.auth-toggle-text {
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+  user-select: none;
+  font-size: 13rem;
+  font-family: 'MontserratLight';
+  margin-top: 4rem;
+}
+
+.auth-toggle-text:hover {
+  text-decoration: underline;
+}
+
+
+.auth-popup-content h2 {
+  font-family: 'Wadik';
+  font-size: 32rem;
+  text-align: center;
+  margin-bottom: 50rem;
+}

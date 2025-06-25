@@ -1,0 +1,99 @@
+.about {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+}
+
+.about__timeline-container {
+  display: flex;
+  width: 100%;
+}
+
+.about__year-timeline {
+  position: sticky;
+  top: 63rem;
+  left: 0;
+  width: 102rem;
+  height: calc(100vh - 40rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-right: 20rem;
+  background: linear-gradient(to right, #fff, transparent); 
+  z-index: 10;
+}
+
+.about_container-line {
+  border-right: 1rem solid #000;
+}
+
+.year-item {
+  width: 45rem;
+  font-family: 'Wadik', sans-serif;
+  font-size: 22rem;
+  color: #5C5C5C;
+  opacity: 0.5;
+  transition: opacity 0.3s ease, color 0.3s ease;
+  cursor: default;
+}
+
+.year-item.active {
+  font-size: 24rem;
+  opacity: 1;
+  color: #000000;
+  font-weight: bold;
+}
+
+.about__content-timeline {
+  flex: 1;
+}
+
+.about__section {
+  height: 591rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 34rem 145rem 37rem 29rem;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease;
+}
+
+.about__section.active {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 1;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  text-align: left;
+  width: 618rem;
+}
+
+.about__title {
+  font-family: 'Wadik', sans-serif;
+  font-size: 32rem;
+  margin-bottom: 15rem;
+  color: #000;
+}
+
+.about__subtitle {
+  font-family: 'Wadik', sans-serif;
+  font-size: 24rem;
+  color: #96C8C9;
+  margin-bottom: 38rem;
+}
+
+.about__text {
+  font-size: 16rem;
+  font-family: 'MontserratLight', sans-serif;
+}
+
+.about__image {
+  display: flex;
+  justify-content: flex-end;
+}

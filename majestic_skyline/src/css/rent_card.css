@@ -1,0 +1,163 @@
+.rent-card {
+    background-color: #000000;
+    box-sizing: border-box;
+    padding: 40rem 120rem; 
+}
+
+.rent-card__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 36rem;
+}
+
+.rent-card__top h2 {
+    font-family: 'Wadik';
+    font-size: 32rem;
+    color: #FFFFFF;
+}
+
+.rent-card__view-more, .rent-card__call-now {
+    font-family: 'MontserratLight';
+    font-size: 13rem;
+    padding: 14rem 80rem;
+    border: 1rem solid #A0DFE0;
+    border-radius: 13rem;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+.rent-card__call-now {
+    border: 1rem solid #000000;
+    padding: 14rem 53rem;
+}
+
+.rent-card__container {
+    box-sizing: border-box;
+    padding: 11rem 87rem 21rem 65rem;
+    display: flex;
+    flex-direction: column;
+    width: 1199rem;
+    /* height: 593rem; */
+    background-color: #ffffff;
+    border-radius: 65rem;
+}
+
+.rent-card__container-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rent-card__container-bottom {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 51rem;
+    gap: 58rem;
+}
+
+.rent-card__info {
+    margin-top: 73rem;
+    font-size: 32rem;
+    width: 418rem;
+}
+
+.rent-card__info-euro {
+    height: 27rem;
+    width: 14rem;
+    vertical-align: middle;
+}
+
+.rent-card__info h3 {
+    font-family: 'Wadik';
+    font-size: 36rem;
+    color: #000000;
+}
+
+.rent-card__price {
+    font-family: 'Wadik';
+    font-size: 24rem;
+    color: #AAAAAA;
+    margin-bottom: 63rem;
+    display: flex;
+    align-items: center;
+}
+
+.rent-card__details {
+    display: flex;
+    align-items: flex-start;
+}
+
+.rent-card__detail-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.rent-card__detail-item {
+    font-family: 'Wadik', sans-serif;
+    color: #000000;
+}
+
+.rent-card__detail-item span {
+    font-size: 36rem;
+}
+
+.rent-card__detail-item span a {
+    font-family: 'Wadik', sans-serif;
+    font-size: 16rem;
+    color: #000000;
+}
+
+.rent-card__detail-item p {
+    font-family: 'MontserratLight';
+    font-size: 16rem;
+    color: #848484;
+}
+
+.rent-card__detail-item--top {
+    margin-bottom: 40rem;
+}
+
+#rent-card__first-top {
+    margin-right: 41rem;
+}
+
+#rent-card__first-bottom {
+    margin-right: 32.5rem;
+}
+
+.rent-card__detail-item--middle {
+    margin-right: 57rem;
+}
+
+.rent-card__detail-item--other {
+    margin-left: 20rem;
+}
+
+.rent-card__detail-line {
+    height: 58rem;
+}
+
+.rent-card__location {
+    margin-top: 58rem;
+    font-family: 'Montserrat';
+    font-size: 14rem;
+    color: #484848;
+}
+
+.rent-card__image {
+    margin-top: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 558rem;
+    height: 411rem;
+}
+
+.rent-card__image img {
+    border-radius: 54rem;
+    width: 100%;
+}

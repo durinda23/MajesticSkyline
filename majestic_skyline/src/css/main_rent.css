@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2');
+    font-weight: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wadik';
+    src: url('../fonts/Wadik.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+.main-rent {
+    background-color: #000000;
+    box-sizing: border-box;
+    padding: 78rem 120rem; 
+}
+
+.rent-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 36rem;
+}
+
+.rent-top h2 {
+    font-family: 'Wadik';
+    font-size: 32rem;
+    color: #FFFFFF;
+}
+
+.view-more-rent {
+    font-family: 'MontserratLight';
+    font-size: 13rem;
+    padding: 14rem 80rem;
+    border: 1rem solid #ffffff;
+    border-radius: 13rem;
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.rent-container {
+    margin-top: 36rem;
+    box-sizing: border-box;
+    padding: 11rem 87rem 21rem 65rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1199rem;
+    height: 508rem;
+    background-color: #ffffff;
+    border-radius: 65rem;
+}
+
+.rent-info {
+    margin-top: 73rem;
+    font-size: 32rem;
+    width: 418rem;
+}
+
+.rent-info-euro {
+    height: 27rem;
+    width: 14rem;
+    vertical-align: middle;
+}
+
+.rent-info h3 {
+    font-family: 'Wadik';
+    font-size: 36rem;
+    color: #000000;
+}
+
+.price-rent {
+    font-family: 'Wadik';
+    font-size: 24rem;
+    color: #AAAAAA;
+    margin-bottom: 63rem;
+    display: flex;
+    align-items: center;
+}
+
+.details-rent {
+    display: flex;
+    align-items: flex-start;
+}
+
+.detail-item-rent {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.detail-item-rent {
+    font-family: 'Wadik', sans-serif;
+    color: #000000;
+}
+
+.detail-item-rent span {
+    font-size: 36rem;
+}
+
+.detail-item-rent span a {
+    font-family: 'Wadik', sans-serif;
+    font-size: 16rem;
+    color: #000000;
+}
+
+.detail-item-rent p {
+    font-family: 'MontserratLight';
+    font-size: 16rem;
+    color: #848484;
+}
+
+.detail-item-top-rent {
+    margin-bottom: 40rem;
+}
+
+#first-top-rent {
+    margin-right: 41rem;
+}
+
+#first-bottom-rent {
+    margin-right: 32.5rem;
+}
+
+.detail-item-middle-rent {
+    margin-right: 57rem;
+}
+
+.detail-item-other-rent {
+    margin-left: 20rem;
+}
+
+.detail-line-rent {
+    height: 58rem;
+}
+
+.location-rent {
+    margin-top: 58rem;
+    font-family: 'Montserrat';
+    font-size: 14rem;
+    color: #484848;
+}
+
+.rent-image {
+    width: 558rem;
+    height: 476rem;
+    border-radius: 54rem;
+}
+
+.rent-image img {
+    width: 100%;
+}

@@ -1,0 +1,126 @@
+.feedback-content {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 65rem 122rem;
+    gap: 12rem;
+}
+
+.feedback-top {
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+}
+
+.feedback-top-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12rem;
+}
+
+.feedback-top-left-top{
+    box-sizing: border-box;
+    padding: 30rem 23rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    border-radius: 20rem;
+    width: 703rem;
+    height: 339rem;
+}
+
+.feedback-top-left-top h1 {
+    font-family: 'Wadik';
+    font-size: 32rem;
+    color: #FFFFFF;
+}
+
+.top-feedback {
+    margin-top: 34rem;
+    display: flex;
+    flex-direction: column;
+    gap: 18rem;
+}
+
+.top-feedback h3, .bottom-feedback h3, .feedback-top-left-bottom-right h3, .feedback-bottom-right h3 {
+    font-family: 'Wadik';
+    font-size: 20rem;
+    color: #FFFFFF;
+}
+
+.top-feedback p, .bottom-feedback p, .feedback-top-left-bottom-right p, .feedback-bottom-right p {
+    font-family: 'MontserratExtraLight';
+    font-size: 20rem;
+    color: #FFFFFF;
+}
+
+.bottom-feedback {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    gap: 18rem;
+    margin-top: 57rem;
+}
+
+.feedback-top-left-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 13rem;
+}
+
+.feedback-top-left-bottom-left {
+    width: 309rem;
+    height: 297rem;
+}
+
+.feedback-top-left-bottom-left img {
+    width: 100%;
+}
+
+.feedback-top-left-bottom-right {
+    display: flex;
+    flex-direction: column;
+    gap: 51rem;
+    background-color: #000000;
+    border-radius: 20rem;
+    box-sizing: border-box;
+    padding: 57rem 34rem 71rem 34rem;
+    width: 382rem;
+    height: 297rem;
+}
+
+.feedback-top-right {
+    width: 481rem;
+    height: 648rem;
+}
+
+.feedback-top-right img {
+    width: 100%;
+}
+
+.feedback-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 13rem;
+}
+
+.feedback-bottom-left {
+    width: 851rem;
+}
+
+.feedback-bottom-left img {
+    width: 100%;
+}
+
+.feedback-bottom-right {
+    width: 333rem;
+    height: 272rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40rem;
+    box-sizing: border-box;
+    padding: 59rem 27rem 37rem 27rem;
+    background-color: #000000;
+    border-radius: 20rem;
+}
+

@@ -1,0 +1,194 @@
+.account {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 54rem 122rem 41rem;
+}
+
+.account-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account h1 {
+    font-family: 'Wadik', sans-serif;
+    font-size: 32rem;
+}
+
+.account-top_email {
+    font-family: 'MontserratLight';
+    font-size: 15rem;
+}
+
+.account-par {
+    font-family: 'MontserratLight';
+    margin-top: 16rem;
+    margin-bottom: 32rem;
+    font-size: 20rem;
+}
+
+.call-button-left {
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    width: 183rem;
+    height: 45rem;
+    margin: -1rem;
+}
+
+.call-button-right {
+    width: 215rem;
+    clip-path: polygon(10% 0, 0 100%, 100% 100%, 100% 0);
+    margin: -1rem -1rem -1rem -20rem;
+    height: 45rem;
+}
+
+.call-button {
+    padding: 13rem 0rem;
+    border: none;
+    font-size: 15rem;
+    font-family: 'Wadik', sans-serif;
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.call-buttons {
+    display: flex;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 376rem;
+    border-radius: 12rem;
+    border: 1rem solid black;
+}
+
+.call-button.active {
+    background: #000;
+    color: #fff;
+}
+
+.call-button:not(.active) {
+    background: #fff;
+    color: #000;
+}
+
+.account-btn_submit {
+    background-color: transparent;
+    border: 1.2rem solid #A0DFE0;
+    border-radius: 15rem;
+    padding: 16rem 173rem;
+    font-family: 'MontserratLight';
+    font-size: 20rem;
+    color: #000;
+}
+
+.review-form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.review-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 35rem;
+}
+
+.account-form_image {
+    width: 655rem;
+    height: 458rem;
+}
+
+.review-name {
+    font-family: 'MontserratLight';
+    font-size: 15rem;
+    padding: 13rem 230rem 13rem 20rem;
+    border-radius: 12rem;
+    color: #000;
+    border: 1rem solid #000;
+}
+
+.review-name:valid {
+    border-color: #000; 
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.review-name:focus {
+    border-color: #000;
+    outline: none;
+    box-shadow: none;
+}
+
+.review-container {
+    border: 1rem solid #000;
+    border-radius: 12rem;
+    overflow: hidden; /* Убираем выступающие края */
+    width: 100%; /* Адаптивная ширина */
+    max-width: 600rem; /* Ограничиваем ширину, как на макете */
+    background: #fff; /* Фон для контраста */
+}
+
+.review-area {
+    box-sizing: border-box;
+    font-family: 'MontserratLight';
+    font-size: 15rem;
+    padding: 13rem 20rem;
+    border: 1rem solid #000;
+    border-radius: 12rem;
+    width: 466rem; 
+    height: 200rem;
+    resize: none; /* Запрещаем изменение размера */
+    background: transparent; /* Прозрачный фон */
+    outline: none; /* Убираем контур при фокусе */
+}
+
+.review-area::placeholder {
+    color: #9E9E9E;
+    font-family: 'MontserratLight';
+    font-size: 10rem;
+}
+
+.review-area:-moz-placeholder {
+    display: none; 
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20rem;
+    border-radius: 12rem;
+    text-align: center;
+    font-family: 'MontserratLight';
+    font-size: 18rem;
+    color: #000;
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+    max-width: 400rem;
+}
+
+.popup-content p {
+    font-family: 'MontserratLight';
+    font-size: 15rem;
+}
+
+.logout-btn {
+    border: 0rem;
+    font-size: 14rem;
+    font-family: 'MontserratLight';
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2');
+    font-weight: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wadik';
+    src: url('../fonts/Wadik.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+.main-buy {
+    box-sizing: border-box;
+    padding: 33rem 120rem;
+}
+
+.buy-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buy-top h2{
+    font-family: 'Wadik';
+    font-size: 32rem;
+}
+
+.view-more {
+    font-family: 'MontserratLight';
+    font-size: 13rem;
+    padding: 14rem 80rem;
+    border: 1rem solid #000000;
+    border-radius: 13rem;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.buy-container {
+    margin-top: 36rem;
+    box-sizing: border-box;
+    padding: 52rem 65rem 42rem 66rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1199rem;
+    height: 508rem;
+    background-color: #000000;
+    border-radius: 65rem;
+}
+
+.buy-info {
+    width: 418rem;
+    
+}
+
+.buy-info-euro {
+    height: 27rem;
+    width: 14rem;
+    vertical-align: middle;
+}
+
+.buy-info h3 {
+    font-family: 'Wadik';
+    font-size: 36rem;
+    color: #FFFFFF;
+}
+
+.price {
+    font-family: 'Wadik';
+    font-size: 24rem;
+    color: #AAAAAA;
+    margin-bottom: 63rem;
+}
+
+.details {
+    display: flex;
+    align-items: flex-start;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.detail-item span {
+    font-family: 'Wadik', sans-serif;
+    font-size: 36rem;
+    color: #FFFFFF;
+}
+
+.detail-item span a {
+    font-family: 'Wadik', sans-serif;
+    font-size: 16rem;
+    color: #FFFFFF;
+}
+
+.detail-item p {
+    font-family: 'MontserratLight';
+    font-size: 16rem;
+    color: #848484;
+}
+
+.detail-item-top {
+    margin-bottom: 40rem;
+}
+
+#first-top {
+    margin-right: 41rem;
+}
+
+#first-bottom {
+    margin-right: 28rem;
+}
+
+.detail-item-middle {
+    margin-right: 57rem;
+}
+
+.detail-item-other {
+    margin-left: 20rem;
+}
+
+.detail-line {
+    height: 58rem;
+}
+
+.location {
+    margin-top: 95rem;
+    font-family: 'Montserrat';
+    font-size: 14rem;
+    color: #AEAEAE;
+}
+
+.buy-image {
+    width: 588rem;
+    height: 411rem;
+    border-radius: 54rem;
+}
+
+.buy-image img {
+    width: 100%;
+}

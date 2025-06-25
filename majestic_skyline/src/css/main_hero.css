@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2');
+    font-weight: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wadik';
+    src: url('../fonts/Wadik.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+.main-hero {
+    padding-bottom: 26rem;
+    margin: 0rem 90rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hero-title span {
+    font-family: 'Wadik';
+    font-size: 48rem;
+}
+
+.hero-title {
+    margin: 70rem 0rem 89rem 0rem;
+    font-family: 'Wadik';
+    font-size: 32rem;
+    width: 917rem;
+    line-height: 140.4%;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 118rem;
+    width: 506rem;
+    justify-content: space-between;
+}
+
+.stats img {
+    height: 58rem;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.stat-item p {
+    font-family: 'MontserratLight';
+    font-size: 16rem;
+    font-weight: 200;
+}
+
+.stat-number {
+    font-family: 'Wadik', sans-serif;
+    font-size: 36rem;
+    font-weight: bold;
+}
+
+.stat-number img {
+    width: 21rem;
+    height: 40rem;
+    vertical-align: middle;
+}
+
+.bottom-content {
+    display: flex;
+    align-items: flex-end;
+    gap: 16rem;
+}
+
+.cta {
+    display: flex;
+    width: 286rem;
+    height: 146rem;
+    background-color: #000000;
+    border-radius: 20rem;
+}
+
+.cta p {
+    width: 234rem;
+    font-family: 'MontserratLight';
+    font-size: 16rem;
+    font-weight: 200;
+    color: #FFFFFF;
+    padding: 12rem 0rem 0rem 12rem;
+}
+
+.cta a {
+    margin: 108rem 10rem 8rem 0rem;
+    width: 30rem;
+    height: 30rem;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+}
+
+.cta-arrow {
+    height: 12rem;
+    margin: 7.91rem 7.98rem 8.28rem 7.2rem;
+}
+
+.cta-social {
+    display: flex;
+    flex-direction: column;
+    gap: 13rem;
+}
+
+.buy-now {
+    font-family: 'MontserratLight';
+    font-size: 16rem;
+    background-color: #FFFFFF;
+    padding: 14rem 49rem 15rem 48rem;
+    border: 2rem solid #000000;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 33rem;
+}
+
+.house-image {
+    padding: 0;
+    margin-left: -380rem;
+    margin-bottom: -3rem;
+    z-index: 0;
+    width: 721rem;
+    height: 622rem;
+}
+
+.house-image img {
+    width: 100%;
+}

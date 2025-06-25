@@ -1,0 +1,169 @@
+.main-call {
+  margin-top: 46rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.call-content {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  gap: 102rem;
+}
+
+.form-title {
+  width: 100%;
+  margin-left: -5rem;
+  white-space: nowrap;
+  position: absolute;
+  font-family: 'Wadik';
+  font-size: 48rem;
+  color: #000;
+  letter-spacing: 1rem;
+  z-index: 1;
+}
+
+.call-image {
+  width: 541rem;
+  height: 483rem;
+  border-radius: 0rem 50rem 50rem 0rem;
+}
+
+.call-image img {
+  width: 100%;
+}
+
+.call-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 132rem;
+}
+
+.form-input {
+  box-sizing: border-box;
+  font-family: 'MontserratLight';
+  font-size: 15rem;
+  color: black;
+  border: 1rem solid black;
+  border-radius: 12rem;
+  padding: 13rem 0rem 13rem 20rem;
+  width: 283rem;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: black;
+}
+
+#email-input {
+  width: 345rem;
+}
+
+.call-form-top {
+  display: flex;
+  flex-direction: row;
+  gap: 47rem;
+  margin-bottom: 35rem;
+}
+
+.call-button-left {
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+  width: 183rem;
+  height: 45rem;
+  margin: -1rem;
+
+}
+
+.call-button-right {
+  width: 215rem;
+  clip-path: polygon(10% 0, 0 100%, 100% 100%, 100% 0);
+  margin: -1rem -1rem -1rem -20rem;
+  height: 45rem;
+}
+
+.call-button {
+  padding: 13rem 0rem;
+  border: none;
+  font-size: 15rem;
+  font-family: 'Wadik', sans-serif;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.call-buttons {
+  display: flex;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 376rem;
+  border-radius: 12rem;
+  border: 1rem solid black;
+}
+
+.call-button.active {
+  background: #000;
+  color: #fff;
+}
+
+.call-button:not(.active) {
+  background: #fff;
+  color: #000;
+}
+
+.call-from-bottom-areas {
+  display: flex;
+  flex-direction: column;
+  gap: 36rem;
+}
+
+.call-from-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 44rem;
+}
+
+.submit-button {
+  margin-top: 7rem;
+  width: 347rem;
+  height: 36rem;
+  font-family: 'Montserrat';
+  font-size: 15rem;
+  color: #fff;
+  background-color: #A0DFE0;
+  border-radius: 10rem;
+  border: 0;
+}
+
+.call-self-contact {
+  display: flex;
+  box-sizing: border-box;
+  padding: 13rem 9rem 8rem 24rem;
+  border-radius: 20rem;
+  background-color: #000;
+  width: 255rem;
+  height: 203rem;
+}
+
+.call-self-contact p {
+  font-family: 'MontserratLight';
+  font-size: 16rem;
+  color: #fff;
+  width: 192rem;
+}
+
+.form-button-arrow {
+  margin-top: 153rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30rem;
+  width: 30rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.form-button-arrow img {
+  height: 12rem;
+}

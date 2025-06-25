@@ -1,0 +1,75 @@
+.case {
+    box-sizing: border-box;
+    padding: 129rem 121rem 103rem;
+}
+
+.case__title {
+    font-family: 'Wadik';
+    font-size: 32rem;
+}
+
+.case__top {
+    margin-top: 38rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.case__top-left {
+    box-sizing: border-box;
+    padding-top: 20rem;
+    padding-left: 19rem;
+    background-color: #030303;
+    color: #FFF;
+    border-radius: 29rem;
+    width: 340rem;
+    height: 181rem;
+}
+
+.case__top-left__heading {
+    font-family: 'Wadik';
+    font-size: 24rem;
+}
+
+.case__top-description {
+    height: 200rem;
+    width: 831rem;
+    font-family: 'Montserrat';
+    font-size: 20rem;
+    text-align: right;
+}
+
+.case__top-description__highlight, .case__middle-left__highlight {
+    font-family: 'Wadik';
+    font-size: 20rem;
+}
+
+.case__middle {
+    margin-top: 14rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.case__middle-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.case__middle-left__text {
+    font-family: 'Montserrat';
+    font-size: 20rem;
+}
+
+.case__middle-image {
+    width: 505rem;
+    height: 546rem;
+}
+
+.case__bottom {
+    margin-top: 33rem;
+}
+
+.case__bottom-image {
+    width: 1191rem;
+}

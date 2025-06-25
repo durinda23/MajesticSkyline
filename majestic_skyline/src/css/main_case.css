@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2');
+    font-weight: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wadik';
+    src: url('../fonts/Wadik.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+.main-case {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 76rem 120rem;
+    color: #FFFFFF;
+}
+
+.main-case-left {
+    display: flex;
+    gap: 37rem;
+    align-items: center;
+}
+
+.main-case-left h1 {
+    font-family: 'Wadik';
+    font-size: 46rem;
+}
+
+.case-dollar {
+    height: 54rem;
+    width: 28rem;
+    vertical-align: middle;
+}
+
+.span-middle {
+    font-family: 'Wadik';
+    font-size: 30rem;
+}
+
+.span-day {
+    font-family: 'Wadik';
+    font-size: 38rem;
+}
+
+.case-arrow {
+    width: 100rem;
+}
+
+.main-case-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 25rem;
+}
+
+.main-case-btn {
+    cursor: pointer;
+    font-family: 'Wadik';
+    font-size: 14rem;
+    padding: 17rem 24rem;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 1rem solid #FFFFFF;
+    border-radius: 15rem;
+}
+
+.main-case-text {
+    text-align: right;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-size: 20rem;
+    width: 597rem;
+}

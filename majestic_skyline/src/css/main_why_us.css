@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wadik';
+    src: url('../fonts/Wadik.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+.why-us {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-us-content {
+    padding: 96.5rem 0rem;
+}
+
+.why-us-header {
+    display: flex;
+    flex-direction: row;
+    gap: 122rem;
+    align-items: center;
+    margin-bottom: 39rem;
+}
+
+.why-us-header h2 {
+    font-family: 'Wadik', sans-serif;
+    font-size: 48rem;
+}
+
+.why-us-header p {
+    font-family: 'Montserrat';
+    font-size: 16rem;
+    width: 590rem;
+    color: #5D5D5D;
+}
+
+.why-us-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 23rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 26rem 0rem 0rem 14rem;
+    height: 195rem;
+    box-sizing: border-box;
+}
+
+.card img {
+    margin-bottom: 27rem;
+    width: 56rem;
+    height: 56rem;
+}
+
+.card a {
+    font-family: 'Montserrat';
+    font-size: 20rem;
+    font-style: normal;
+}
+
+.card p{
+    font-family: 'Montserrat';
+    font-size: 16rem;
+}
+
+.conf-card {
+    width: 373rem;
+    border: 1rem solid #000000;
+    border-radius: 20rem;
+    color: #555A65;
+}
+
+.network-card {
+    width: 390rem;
+    background-color: #000000;
+    border-radius: 20rem;
+}
+
+.network-card a {
+    color: #FFFFFF;
+}
+
+.network-card p {
+    color: #AAAAAA;
+}
+
+.support-card {
+    width: 375rem;
+    background-color: #A0DFE0;
+    border-radius: 20rem;
+    color: #000000;
+}
+

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'MontserratExtraLight';
+    src: url('../fonts/Montserrat-ExtraLight.woff2') format('woff2');
+    font-weight: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wadik';
+    src: url('../fonts/Wadik.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+.main-advantages {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.main-advantages-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48rem;
+    padding: 72rem 122rem;
+}
+
+.advantage-item {
+    width: 100%;
+}
+
+.advantage-item h2 {
+    font-family: 'Wadik', sans-serif;
+    font-size: 40rem;
+    margin-bottom: 23rem;
+    width: 757rem;
+}
+
+.advantage-item p {
+    font-family: 'MontserratExtraLight', sans-serif;
+    font-size: 24rem;
+    width: 757rem;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+#bottom {
+    text-align: left;
+}
